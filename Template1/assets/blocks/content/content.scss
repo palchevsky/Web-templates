@@ -1,0 +1,10 @@
+@import '../constants';
+
+.content {
+    background: $bgc-content;
+    flex: 1;
+
+    &--mt-header-fixed{
+        margin-top: $fixed-height;
+    }
+}

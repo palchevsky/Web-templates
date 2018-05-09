@@ -1,0 +1,11 @@
+@import '../../constants';
+.sidebar {
+    background-color: $bgc-sidebar;
+    color: aquamarine;
+    &--left {
+        min-width: $sidebar-left-width;
+    }
+    &--right {
+        min-width: $sidebar-right-width;
+    }
+}

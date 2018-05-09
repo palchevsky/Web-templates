@@ -1,0 +1,27 @@
+@import 'reset';
+@import 'constants';
+@import 'base';
+@import 'blocks/header/header';
+@import 'blocks/sidebar/sidebar';
+@import 'blocks/content/content';
+@import 'blocks/footer/footer';
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+.general {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}

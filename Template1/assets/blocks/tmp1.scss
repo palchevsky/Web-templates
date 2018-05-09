@@ -1,0 +1,17 @@
+@import 'reset';
+@import 'constants';
+@import 'base';
+@import 'header/header';
+@import 'content/content';
+@import 'footer/footer';
+
+html, body{
+    height: 100%;
+}
+
+body {
+    //background-color: $bgc-body;
+    // min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
